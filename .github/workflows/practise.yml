@@ -1,0 +1,15 @@
+name: My  practise Lab
+on:
+ workflow_dispatch:
+jobs:
+  practise:
+    runs-on: ubuntu-latest
+    steps:
+      - name: welcome
+        run: echo"welcome to my practise lab"
+      - name: check git
+        run:  git --version
+      - name: check python
+        run: python3 --version
+      - name: check disk space
+        run: df -h
