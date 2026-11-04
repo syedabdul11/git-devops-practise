@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: welcome
-        run: echo"welcome to my practise lab"
+        run: echo "welcome to my practise lab"
       - name: check git
         run:  git --version
       - name: check python
