@@ -10,7 +10,7 @@ jobs:
       - name: print welcome message
         run: echo "hello,github"
 
-Actions!
+Actions!"
      - name: check linux version
        run: uname -a
      - name: check current directory
