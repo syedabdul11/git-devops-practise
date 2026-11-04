@@ -1,0 +1,20 @@
+name: First Github Actions
+on:
+ push:
+   branches:
+       -master
+jobs:
+  hello:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: print welcome message
+        run: echo "hello,github"
+
+Actions!
+     - name: check linux version
+       run: uname -a
+     - name: check current directory
+       run: pwd
+     - name:chech current date 
+       run: date
+
