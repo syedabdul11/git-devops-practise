@@ -1,0 +1,15 @@
+name: my first  CI pipeline
+on:
+  push:
+    branches:
+      - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+steps:
+   - name: first step
+     run: echo "starting CI pipeline"
+   - name: second step
+     run: echo  "testing application"
+   - name: third step
+     run: echo "CI pipeline completed"
